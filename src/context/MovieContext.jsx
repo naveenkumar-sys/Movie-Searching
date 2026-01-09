@@ -40,7 +40,8 @@ const MovieContext = ({ children }) => {
     fetchData();
   }, [query, page, type, baseURL, apiKey]);
 
-  console.log(movie);
+  //   console.log(movie);
+  // console.log(movieDetails);
 
   return (
     <myContext.Provider
